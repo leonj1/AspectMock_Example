@@ -1,0 +1,23 @@
+{
+    "name"       : "honestbuildings/api",
+    "description": "The Back-End",
+    "license"    : "proprietary",
+    "authors":     [
+        {
+            "name"     : "Somnath Sarkar ",
+            "email"    : "somnath@honestbuildings.com",
+            "role"     : "Data Scientist/Engineer"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit-selenium": ">=1.2",
+        "phpunit/dbunit": ">=1.2",
+        "phpunit/phpunit-story": "*",
+        "phpunit/php-invoker": "*",
+        "phpunit/phpunit"               : "4.7.*",
+        "johnkary/phpunit-speedtrap"    : "~1.0@dev",
+        "codeception/aspect-mock"       : "0.5.3"
+    }
+}
